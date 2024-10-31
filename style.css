@@ -26,11 +26,32 @@ header h1 {
 }
 
 /* Navegação */
+nav {
+    position: relative;
+    background: #333;
+}
+
+.menu-toggle {
+    display: none; /* Esconder por padrão */
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 4px 0;
+}
+
+/* Estilos para a lista de navegação */
 nav ul {
-    display: flex;
+    display: flex; /* Menu horizontal por padrão */
     justify-content: center;
     list-style: none;
-    background: #333;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -41,9 +62,30 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #444;
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex; /* Mostrar o menu hamburguer */
+    }
+
+    nav ul {
+        display: none; /* Esconder o menu por padrão */
+        flex-direction: column; /* Tornar vertical */
+        width: 100%;
+        background: #333;
+    }
+
+    nav ul.active {
+        display: flex; /* Mostrar o menu quando ativo */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Espaçamento entre itens */
+        text-align: center; /* Centralizar texto */
+    }
 }
 
 /* Efeito 3D no hover */
