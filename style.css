@@ -87,12 +87,12 @@ nav ul li a {
     }
 
     header h1 {
-        font-size: 2em; /* Reduz o tamanho do título */
+        font-size: 1.8em; /* Reduz o tamanho do título para mobile */
     }
 
     nav ul li a {
         padding: 8px 12px; /* Reduz o padding dos links de navegação */
-        font-size: 0.9em; /* Reduz o tamanho da fonte */
+        font-size: 0.8em; /* Reduz o tamanho da fonte dos links de navegação */
     }
 
     section {
@@ -101,7 +101,7 @@ nav ul li a {
 
     .button-3d {
         padding: 10px 20px; /* Reduz o tamanho do botão */
-        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
+        font-size: 0.9rem; /* Reduz o tamanho da fonte do botão */
     }
 }
 
@@ -139,16 +139,17 @@ footer {
 }
 
 /* Botão 3D */
+/* Botão 3D */
 .button-container {
     display: flex;
     justify-content: center; 
     align-items: center;     
     width: 100%;            
-    margin: 20px 0;     
+    margin: 10px 0; /* Reduz o espaçamento vertical do contêiner */
 }     
 
 .button-3d {
-    padding: 15px 30px;      
+    padding: 10px 20px; /* Reduz o padding do botão */
     color: #fff;
     background-color: #3b5998;
     font-weight: bold;
@@ -157,7 +158,7 @@ footer {
     transition: transform 0.1s ease;
     text-align: center;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
     width: auto; /* Ajusta automaticamente */
 }
 
@@ -165,6 +166,8 @@ footer {
 .button-3d:active {
     transform: translateY(6px);
     box-shadow: 0 2px #2a4372;
+}
+
 }
 
 .button-3d:last-of-type {
