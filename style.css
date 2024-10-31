@@ -65,7 +65,6 @@ nav ul li a {
 }
 
 /* Estilos para dispositivos móveis */
-/* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: flex; /* Mostrar o menu hamburguer */
@@ -111,7 +110,6 @@ nav ul li a {
     }
 }
 
-
 /* Efeito 3D no hover */
 nav ul li a:hover {
     transform: translateY(-8px) rotateX(15deg) rotateY(-5deg);
@@ -130,7 +128,7 @@ section {
 }
 
 section:last-of-type {
-    margin-bottom: 120px; /* Garante espaço suficiente para o footer */
+    margin-bottom: 160px; /* Garante espaço suficiente para o footer */
 }
 
 /* Footer */
@@ -144,7 +142,6 @@ footer {
     width: 100%;
     z-index: 10; /* Garante que o footer fica acima do conteúdo */
 }
-     
 
 /* Botão 3D */
 .button-container {
@@ -177,7 +174,7 @@ footer {
 }
 
 .button-3d:last-of-type {
-    margin-bottom: 40px; /* Ajuste para harmonizar com o novo espaço */
+    margin-bottom: 60px; /* Aumenta a margem inferior do último botão */
 }
 
 /* Efeitos de imagens */
