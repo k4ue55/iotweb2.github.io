@@ -65,6 +65,7 @@ nav ul li a {
 }
 
 /* Estilos para dispositivos móveis */
+/* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: flex; /* Mostrar o menu hamburguer */
@@ -103,7 +104,13 @@ nav ul li a {
         padding: 10px 20px; /* Reduz o tamanho do botão */
         font-size: 0.9rem; /* Reduz o tamanho da fonte do botão */
     }
+
+    footer {
+        padding: 7px 0; /* Reduz a altura do footer */
+        font-size: 0.65rem; /* Reduz o tamanho da fonte */
+    }
 }
+
 
 /* Efeito 3D no hover */
 nav ul li a:hover {
@@ -168,7 +175,7 @@ footer {
     box-shadow: 0 2px #2a4372;
 }
 
-}
+
 
 .button-3d:last-of-type {
     margin-bottom: 80px;
