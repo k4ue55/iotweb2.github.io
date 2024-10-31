@@ -130,9 +130,8 @@ section {
 }
 
 section:last-of-type {
-    margin-bottom: 80px;
+    margin-bottom: 120px; /* Garante espaço suficiente para o footer */
 }
-
 
 /* Footer */
 footer {
@@ -143,8 +142,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 10; /* Garante que o footer fica acima do conteúdo */
 }
-
      
 
 /* Botão 3D */
@@ -178,9 +177,8 @@ footer {
 }
 
 .button-3d:last-of-type {
-    margin-bottom: 40px; /* Reduz a margem inferior do último botão */
+    margin-bottom: 40px; /* Ajuste para harmonizar com o novo espaço */
 }
-
 
 /* Efeitos de imagens */
 .imagem-no-paragrafo {
