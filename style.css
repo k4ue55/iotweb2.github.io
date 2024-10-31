@@ -10,6 +10,8 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+    padding-bottom: 80px; /* Ajuste conforme necessário para não cobrir o conteúdo */
+
 }
 
 header {
@@ -30,6 +32,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     background: #333;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
 }
 
 nav ul li {
@@ -66,25 +69,27 @@ section:last-of-type {
     margin-bottom: 80px;
 }
 
-
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
 /* Footer */
+/* Footer */
 footer {
     text-align: center;
     padding: 20px 0;
     background: #3b5998;
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-    
+    position: fixed; /* Mantém o footer fixo */
+    bottom: 0; /* Alinha o footer ao fundo da página */
+    width: 100%; /* Largura total */
+    margin-top: 20px; /* Para espaçamento */
+    z-index: 1000; /* Para garantir que fique sobre outros elementos, se necessário */
 }
+
+
+
 
 /* Botão 3D */
 .button-container {
@@ -111,8 +116,6 @@ footer {
     text-decoration: none;
 }
 
-
-
 /* Efeito de pressionar ao clicar */
 .button-3d:active {
     transform: translateY(6px);
@@ -122,8 +125,50 @@ footer {
 /* Efeitos de imagens */
 .imagem-no-paragrafo {
     display: block;         
-    width: 720px;          
+    width: 100%; /* Ajusta a largura para 100% para responsividade */
     height: auto;        
     margin: 10px 0;       
 }
 
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Tamanho menor para telas menores */
+    }
+
+    nav ul {
+        flex-direction: column; /* Altera a direção para coluna */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Reduz o espaço entre os itens */
+    }
+
+    section {
+        padding: 30px 10px; /* Ajusta o padding em seções */
+        margin: 10px auto; /* Menos margem */
+    }
+
+    .button-3d {
+        font-size: 1rem; /* Tamanho da fonte menor para dispositivos móveis */
+        padding: 10px 20px; /* Menor padding */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 30px; /* Menor padding no header */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Font menor ainda */
+    }
+
+    nav ul li a {
+        padding: 8px 15px; /* Menor padding em links de navegação */
+    }
+
+    section {
+        padding: 20px 5px; /* Ajuste adicional de padding */
+    }
+}
