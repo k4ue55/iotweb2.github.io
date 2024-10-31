@@ -113,8 +113,8 @@ nav ul li a:hover {
 
 /* Seções */
 section {
-    padding: 40px 20px 60px; /* Mantém padding, mas ajusta para evitar cortes */
-    margin: 20px auto;
+    padding: 40px 20px 60px; /* Mantém padding */
+    margin: 40px auto; /* Aumenta a margem superior e inferior */
     max-width: 800px;
     background: #fff;
     border-radius: 8px;
@@ -125,6 +125,7 @@ section {
 section:last-of-type {
     margin-bottom: 80px;
 }
+
 
 /* Footer */
 footer {
@@ -164,6 +165,10 @@ footer {
 .button-3d:active {
     transform: translateY(6px);
     box-shadow: 0 2px #2a4372;
+}
+
+.button-3d:last-of-type {
+    margin-bottom: 80px;
 }
 
 /* Efeitos de imagens */
