@@ -10,13 +10,12 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-    padding-bottom: 80px; /* Espaço inferior para o footer */
     font-size: 1rem; /* Base de tamanho de fonte */
 }
 
 header {
     text-align: center;
-    padding: 50px;
+    padding: 50px 20px; /* Adiciona padding lateral para evitar cortes */
     background: #3b5998;
     color: #fff;
 }
@@ -86,6 +85,24 @@ nav ul li a {
         margin: 5px 0; /* Espaçamento entre itens */
         text-align: center; /* Centralizar texto */
     }
+
+    header h1 {
+        font-size: 2em; /* Reduz o tamanho do título */
+    }
+
+    nav ul li a {
+        padding: 8px 12px; /* Reduz o padding dos links de navegação */
+        font-size: 0.9em; /* Reduz o tamanho da fonte */
+    }
+
+    section {
+        padding: 20px 10px; /* Reduz o padding das seções */
+    }
+
+    .button-3d {
+        padding: 10px 20px; /* Reduz o tamanho do botão */
+        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
+    }
 }
 
 /* Efeito 3D no hover */
@@ -96,7 +113,7 @@ nav ul li a:hover {
 
 /* Seções */
 section {
-    padding: 40px 20px 60px;
+    padding: 40px 20px 60px; /* Mantém padding, mas ajusta para evitar cortes */
     margin: 20px auto;
     max-width: 800px;
     background: #fff;
@@ -157,32 +174,7 @@ footer {
     margin: 10px 0;       
 }
 
-/* Media Queries para responsividade */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em; /* Reduz o tamanho do título */
-    }
-
-    nav ul li a {
-        padding: 8px 12px; /* Reduz o padding dos links de navegação */
-        font-size: 0.9em; /* Reduz o tamanho da fonte */
-    }
-
-    section {
-        padding: 20px 10px; /* Reduz o padding das seções */
-    }
-
-    .button-3d {
-        padding: 10px 20px; /* Reduz o tamanho do botão */
-        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
-    }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
+/* Video responsivo */
 .video-container {
     position: relative;
     width: 100%;
@@ -195,4 +187,9 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
