@@ -20,3 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function redirectToPage2() {
         window.location.href = "./beneficios.html";
     }
+
+    function redirectToPage3() {
+        window.location.href = "./app.html"
+    }
