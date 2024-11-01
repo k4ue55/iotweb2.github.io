@@ -40,3 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function redirectToPage7() {
         window.location.href = "./susten.html"
     }
+
+    function redirectToPage8() {
+        window.location.href = "./tec.html"
+    }

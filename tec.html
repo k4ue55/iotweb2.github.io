@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias por Trás da IoT</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Tecnologias por Trás da IoT</h1>
+        <p>Descubra as inovações que possibilitam a Internet das Coisas</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="#sensores">Sensores e Atuadores</a></li>
+            <li><a href="#conectividade">Conectividade</a></li>
+            <li><a href="#computacao">Computação em Nuvem</a></li>
+            <li><a href="#bigdata">Big Data e IA</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seções de Conteúdo -->
+    <section id="sensores">
+        <h2>Sensores e Atuadores</h2>
+        <p>Sensores capturam informações do ambiente, como temperatura, umidade e movimento. Atuadores, por sua vez, executam ações físicas em resposta aos dados, como abrir uma porta ou ajustar a iluminação. Essa combinação possibilita a interação entre o mundo digital e físico, tornando a IoT uma tecnologia funcional e responsiva.</p>
+        <img src="./img/sensores-de-IoT.jpg" alt="Sensores e Atuadores IoT" class="imagem-no-paragrafo">
+    </section>
+
+    <section id="conectividade">
+        <h2>Conectividade</h2>
+        <p>A conectividade é essencial para a comunicação entre dispositivos IoT. Tecnologias como Wi-Fi, Bluetooth, 5G e redes de longo alcance (LoRa, NB-IoT) garantem a troca de dados. A escolha da tecnologia depende da aplicação, alcance e quantidade de dados necessários, possibilitando desde redes locais até operações em larga escala.</p>
+        <img src="./img/iot.jpg" alt="Redes de Conectividade IoT" class="imagem-no-paragrafo">
+    </section>
+
+    <section id="computacao">
+        <h2>Computação em Nuvem</h2>
+        <p>A computação em nuvem permite o armazenamento e processamento de grandes volumes de dados gerados por dispositivos IoT. A nuvem viabiliza o acesso remoto, facilita o gerenciamento de dados e possibilita a análise em tempo real, crucial para monitoramento e tomada de decisões rápidas.</p>
+        <img src="./img/Computação_em_nuvem.svg.png" alt="Computação em Nuvem IoT" class="imagem-no-paragrafo">
+    </section>
+
+    <section id="bigdata">
+        <h2>Big Data e Inteligência Artificial</h2>
+        <p>A IoT gera enormes volumes de dados que precisam ser interpretados. Tecnologias de Big Data e IA possibilitam a análise de grandes quantidades de informações, identificando padrões e facilitando a previsão de eventos. Essas análises permitem automação e decisões mais inteligentes e eficientes em tempo real.</p>
+        <iframe 
+        src="https://www.youtube.com/embed/hEFFCKxYbKM" 
+        title="Internet das Coisas - Tecmundo Explica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="width: 100%; height: auto; max-width: 700px; aspect-ratio: 16 / 9;">
+    </iframe>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Tecnologias IoT | By: Kauê Fabricio</p>
+    </footer>
+
+    <!-- Script para Menu Mobile -->
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
