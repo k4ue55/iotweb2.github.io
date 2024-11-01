@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indústria 4.0</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Indústria 4.0</h1>
+        <p>Transformando a manufatura e a produção com tecnologia avançada</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href=".\index.html">Inicio</a></li>
+            <li><a href="#overview">Visão Geral</a></li>
+            <li><a href="#benefits">Benefícios</a></li>
+            <li><a href="#technologies">Tecnologias</a></li>
+            <li><a href="#applications">Aplicações</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção: Visão Geral -->
+    <section id="overview">
+        <h2>O que é Indústria 4.0?</h2>
+        <p>A Indústria 4.0 representa a quarta revolução industrial, marcada pela integração de tecnologias avançadas, como a Internet das Coisas (IoT), inteligência artificial, big data, e sistemas ciber-físicos. Ela permite a automação e otimização de processos produtivos, levando a uma manufatura mais eficiente e personalizada.</p>
+        <iframe 
+        src="https://www.youtube.com/embed/R0Kt8-dwJ3U" 
+        title="Internet das Coisas - Tecmundo Explica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="width: 100%; height: auto; max-width: 700px; aspect-ratio: 16 / 9;">
+        </iframe>
+    </section>
+
+    <!-- Seção: Benefícios -->
+    <section id="benefits">
+        <h2>Benefícios da Indústria 4.0</h2>
+        <ul>
+            <li><strong>Automação:</strong> Aumento da eficiência e redução de erros por meio da automação de processos.</li>
+            <li><strong>Personalização:</strong> Capacidade de personalizar produtos conforme as necessidades do cliente.</li>
+            <li><strong>Eficiência Energética:</strong> Redução de custos e consumo de energia por meio de sistemas inteligentes.</li>
+            <li><strong>Manutenção Preditiva:</strong> Prevenção de falhas e paradas inesperadas com monitoramento em tempo real.</li>
+        </ul>
+    </section>
+
+    <!-- Seção: Tecnologias -->
+    <section id="technologies">
+        <h2>Tecnologias da Indústria 4.0</h2>
+        <ul>
+            <li><strong>Internet das Coisas (IoT):</strong> Conecta máquinas e dispositivos, permitindo monitoramento e controle remoto.</li>
+            <li><strong>Inteligência Artificial (IA):</strong> Análise de dados para otimizar processos e prever problemas.</li>
+            <li><strong>Big Data:</strong> Coleta e análise de grandes volumes de dados para insights e tomadas de decisão.</li>
+            <li><strong>Robótica Avançada:</strong> Utilização de robôs para tarefas repetitivas e complexas, com alta precisão.</li>
+            <li><strong>Impressão 3D:</strong> Produção de protótipos e produtos personalizados de forma rápida e econômica.</li>
+        </ul>
+        <img src="img/Industria-4.0.png" alt="Tecnologias da Indústria 4.0" class="imagem-no-paragrafo">
+    </section>
+
+    <!-- Seção: Aplicações -->
+    <section id="applications">
+        <h2>Exemplos de Aplicações na Indústria 4.0</h2>
+        <ul>
+            <li><strong>Manufatura Inteligente:</strong> Fábricas conectadas com monitoramento em tempo real e automação avançada.</li>
+            <li><strong>Logística e Cadeia de Suprimentos:</strong> Rastreamento de mercadorias e otimização da cadeia de suprimentos.</li>
+            <li><strong>Saúde e Farmacêutica:</strong> Produção de medicamentos com precisão e controle de qualidade automatizado.</li>
+            <li><strong>Setor Automotivo:</strong> Montagem de veículos com robôs e personalização de veículos conforme demanda do cliente.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Indústria 4.0 | By Kauê Fabricio</p>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+    
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

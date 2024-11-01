@@ -1,72 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cidades Inteligentes e IoT</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
+    <!-- Header -->
     <header>
         <h1>Cidades Inteligentes e IoT</h1>
-        <p>Transformando o futuro das cidades com a Internet das Coisas</p>
+        <p>Explorando como a Internet das Coisas está transformando as cidades modernas</p>
     </header>
 
     <!-- Navegação -->
     <nav>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#beneficios">Benefícios</a></li>
-            <li><a href="#tecnologias">Tecnologias</a></li>
-            <li><a href="#aplicacoes">Aplicações</a></li>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="#introduction">Introdução</a></li>
+            <li><a href="#benefits">Benefícios</a></li>
+            <li><a href="#technologies">Tecnologias</a></li>
+            <li><a href="#applications">Aplicações</a></li>
         </ul>
     </nav>
 
-    <!-- Seções de Conteúdo -->
-    <section id="sobre">
+    <!-- Seção: Introdução -->
+    <section id="introduction">
         <h2>O que são Cidades Inteligentes?</h2>
-        <p>As cidades inteligentes utilizam tecnologias avançadas e IoT para melhorar a eficiência dos serviços urbanos e proporcionar uma melhor qualidade de vida aos cidadãos. Com sensores conectados e análise de dados em tempo real, as cidades podem monitorar e otimizar tudo, desde o trânsito até o consumo de energia.</p>
-        <img src="img/cidade-inteligente.jpg" alt="Imagem de uma cidade inteligente" class="imagem-no-paragrafo">
+        <p>As cidades inteligentes utilizam tecnologias avançadas, como a Internet das Coisas (IoT), para otimizar a gestão de recursos urbanos e melhorar a qualidade de vida dos cidadãos. Com o uso de sensores, conectividade e análise de dados em tempo real, é possível gerenciar melhor o trânsito, a energia, a segurança pública e outros aspectos do ambiente urbano.</p>
+        <iframe 
+        src="https://www.youtube.com/embed/6fjwmSlVehw" 
+        title="Internet das Coisas - Tecmundo Explica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="width: 100%; height: auto; max-width: 700px; aspect-ratio: 16 / 9;">
+        </iframe>
     </section>
 
-    <section id="beneficios">
+    <!-- Seção: Benefícios -->
+    <section id="benefits">
         <h2>Benefícios das Cidades Inteligentes</h2>
         <ul>
-            <li>Melhor gestão de recursos e redução de custos.</li>
-            <li>Maior segurança pública e qualidade de vida.</li>
-            <li>Redução da poluição e preservação ambiental.</li>
-            <li>Incentivo à inovação e ao desenvolvimento urbano sustentável.</li>
+            <li><strong>Eficiência Energética:</strong> Redução no consumo de energia por meio de sistemas inteligentes de monitoramento e automação.</li>
+            <li><strong>Melhoria na Mobilidade:</strong> Gestão otimizada do trânsito e do transporte público para reduzir congestionamentos e aumentar a segurança.</li>
+            <li><strong>Sustentabilidade:</strong> Menor impacto ambiental por meio do uso eficiente dos recursos e monitoramento da poluição.</li>
+            <li><strong>Qualidade de Vida:</strong> Acesso a serviços públicos mais eficazes e adaptados às necessidades dos cidadãos.</li>
         </ul>
     </section>
 
-    <section id="tecnologias">
+    <!-- Seção: Tecnologias -->
+    <section id="technologies">
         <h2>Tecnologias Envolvidas</h2>
-        <p>As principais tecnologias que viabilizam as cidades inteligentes incluem:</p>
+        <p>As principais tecnologias que permitem a transformação das cidades em ambientes inteligentes incluem:</p>
         <ul>
-            <li>Sensores e Atuadores IoT</li>
-            <li>Redes 5G e 6G</li>
-            <li>Análise de Big Data e IA</li>
-            <li>Sistemas de Geolocalização</li>
+            <li><strong>Sensores IoT:</strong> Monitoram variáveis como temperatura, qualidade do ar, fluxo de pessoas e muito mais.</li>
+            <li><strong>5G e Conectividade:</strong> Proporcionam alta velocidade de transmissão de dados e conectividade entre dispositivos.</li>
+            <li><strong>Big Data e IA:</strong> Análise de grandes volumes de dados em tempo real para gerar insights e facilitar a tomada de decisões.</li>
+            <li><strong>Geolocalização e Mapas:</strong> Aplicações de mapeamento em tempo real para monitorar e otimizar a mobilidade urbana.</li>
         </ul>
     </section>
 
-    <section id="aplicacoes">
-        <h2>Exemplos de Aplicações</h2>
-        <p>As cidades inteligentes abrangem várias aplicações práticas:</p>
+    <!-- Seção: Aplicações -->
+    <section id="applications">
+        <h2>Aplicações Práticas em Cidades Inteligentes</h2>
         <ul>
-            <li><strong>Transporte Inteligente:</strong> Monitoramento de tráfego em tempo real e gestão de transportes públicos.</li>
-            <li><strong>Energia:</strong> Redes de energia inteligentes (smart grids) para melhorar a eficiência energética.</li>
-            <li><strong>Saúde:</strong> Sistemas de emergência conectados e monitoramento da qualidade do ar.</li>
-            <li><strong>Segurança:</strong> Câmeras inteligentes e sistemas de alerta automatizados.</li>
+            <li><strong>Transporte Inteligente:</strong> Monitoramento de trânsito e gestão de semáforos para reduzir congestionamentos e melhorar a segurança.</li>
+            <li><strong>Energia:</strong> Redes inteligentes de energia (smart grids) que regulam o fornecimento e promovem o uso eficiente.</li>
+            <li><strong>Saúde:</strong> Monitoramento da qualidade do ar e do som, além de sistemas de resposta rápida em emergências.</li>
+            <li><strong>Segurança:</strong> Câmeras inteligentes e sistemas de monitoramento para aumentar a segurança pública.</li>
         </ul>
+        <img src="img/cd1.png" alt="Aplicações de IoT em Cidades Inteligentes" class="imagem-no-paragrafo">
     </section>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Cidades Inteligentes e IoT. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Cidades Inteligentes e IoT | By Kauê Fabricio</p>
     </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+    
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+    
 
 </body>
 </html>

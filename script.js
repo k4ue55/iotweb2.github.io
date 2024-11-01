@@ -24,3 +24,19 @@ document.addEventListener("DOMContentLoaded", function() {
     function redirectToPage3() {
         window.location.href = "./app.html"
     }
+
+    function redirectToPage4() {
+        window.location.href = "./cidade.inteligente.html"
+    }
+
+    function redirectToPage5() {
+        window.location.href = "./in4.0.html"
+    }
+
+    function redirectToPage6() {
+        window.location.href = "./saudecon.html"
+    }
+
+    function redirectToPage7() {
+        window.location.href = "./susten.html"
+    }

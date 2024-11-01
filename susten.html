@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade e Meio Ambiente</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Sustentabilidade e Meio Ambiente</h1>
+        <p>Construindo um futuro mais verde e consciente</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="#overview">Visão Geral</a></li>
+            <li><a href="#importance">Importância</a></li>
+            <li><a href="#technologies">Tecnologias</a></li>
+            <li><a href="#solutions">Soluções Sustentáveis</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção: Visão Geral -->
+    <section id="overview">
+        <h2>O que é Sustentabilidade?</h2>
+        <p>Sustentabilidade refere-se ao uso responsável dos recursos naturais para atender às necessidades presentes sem comprometer a capacidade das futuras gerações. A sustentabilidade ambiental foca em práticas que preservam o meio ambiente, promovendo um equilíbrio ecológico e garantindo o bem-estar de todos os seres vivos.</p>
+        <img src="img/sust01.png" alt="Imagem de sustentabilidade" class="imagem-no-paragrafo">
+    </section>
+
+    <!-- Seção: Importância -->
+    <section id="importance">
+        <h2>Por que Sustentabilidade é Importante?</h2>
+        <ul>
+            <li><strong>Preservação de Recursos:</strong> Garante a disponibilidade de recursos naturais para as gerações futuras.</li>
+            <li><strong>Saúde Ambiental:</strong> Minimiza a poluição e protege os ecossistemas.</li>
+            <li><strong>Equidade Social:</strong> Promove um uso justo e igualitário dos recursos, beneficiando comunidades.</li>
+            <li><strong>Resiliência Climática:</strong> Ajuda a combater os impactos das mudanças climáticas.</li>
+        </ul>
+    </section>
+
+    <!-- Seção: Tecnologias -->
+    <section id="technologies">
+        <h2>Tecnologias Verdes para Sustentabilidade</h2>
+        <ul>
+            <li><strong>Energia Solar:</strong> Painéis solares captam energia do sol, reduzindo a dependência de fontes fósseis.</li>
+            <li><strong>Reciclagem Avançada:</strong> Tecnologias que transformam resíduos em novos produtos e materiais úteis.</li>
+            <li><strong>IoT e Sensores Ambientais:</strong> Monitoram qualidade do ar e água, ajudando a manter o ambiente saudável.</li>
+            <li><strong>Agricultura de Precisão:</strong> Técnicas que otimizam o uso de recursos na agricultura, como água e fertilizantes.</li>
+        </ul>
+        <iframe 
+        src="https://www.youtube.com/embed/Ehhi2i1Ib20" 
+        title="Internet das Coisas - Tecmundo Explica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="width: 100%; height: auto; max-width: 700px; aspect-ratio: 16 / 9;">
+    </iframe>
+    </section>
+
+    <!-- Seção: Soluções Sustentáveis -->
+    <section id="solutions">
+        <h2>Exemplos de Soluções Sustentáveis</h2>
+        <ul>
+            <li><strong>Gestão de Resíduos:</strong> Programas de reciclagem e compostagem para reduzir o lixo em aterros.</li>
+            <li><strong>Construção Sustentável:</strong> Edifícios verdes que economizam energia e utilizam materiais ecológicos.</li>
+            <li><strong>Mobilidade Urbana:</strong> Incentivo ao transporte público e veículos elétricos para reduzir a emissão de carbono.</li>
+            <li><strong>Proteção de Áreas Naturais:</strong> Preservação de florestas, rios e reservas para manter a biodiversidade.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Sustentabilidade e Meio Ambiente | Desenvolvido por Kauê Fabricio</p>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+    
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

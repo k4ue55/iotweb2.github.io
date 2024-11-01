@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Conectada e IoT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Saúde Conectada com IoT</h1>
+        <p>Revolucionando o atendimento médico com a Internet das Coisas</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href=".\index.html">Inicio</a></li>
+            <li><a href="#overview">Visão Geral</a></li>
+            <li><a href="#benefits">Benefícios</a></li>
+            <li><a href="#technologies">Tecnologias</a></li>
+            <li><a href="#applications">Aplicações</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção: Visão Geral -->
+    <section id="overview">
+        <h2>O que é Saúde Conectada?</h2>
+        <p>Saúde Conectada, ou Connected Health, é o uso de dispositivos IoT (Internet das Coisas) para monitoramento, diagnóstico e tratamento de pacientes de forma remota e em tempo real. Com a integração de tecnologias como wearables, aplicativos de monitoramento e inteligência artificial, a saúde conectada oferece atendimento personalizado, rápido e eficiente.</p>
+        <iframe 
+        src="https://www.youtube.com/embed/KKoZJ-qYVys" 
+        title="Internet das Coisas - Tecmundo Explica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="width: 100%; height: auto; max-width: 700px; aspect-ratio: 16 / 9;">
+    </iframe>
+    </section>
+
+    <!-- Seção: Benefícios -->
+    <section id="benefits">
+        <h2>Benefícios da Saúde Conectada</h2>
+        <ul>
+            <li><strong>Monitoramento em Tempo Real:</strong> Dispositivos IoT permitem o acompanhamento contínuo da saúde do paciente, reduzindo visitas presenciais.</li>
+            <li><strong>Diagnósticos Precoces:</strong> A coleta constante de dados ajuda a identificar problemas de saúde antes que se agravem.</li>
+            <li><strong>Redução de Custos:</strong> Consultas e monitoramentos remotos reduzem custos para pacientes e sistemas de saúde.</li>
+            <li><strong>Qualidade de Vida:</strong> A saúde conectada permite cuidados personalizados, melhorando a qualidade de vida de pacientes com doenças crônicas.</li>
+        </ul>
+    </section>
+
+    <!-- Seção: Tecnologias -->
+    <section id="technologies">
+        <h2>Tecnologias na Saúde Conectada</h2>
+        <ul>
+            <li><strong>Wearables:</strong> Dispositivos vestíveis, como smartwatches e monitores de glicose, que acompanham a saúde em tempo real.</li>
+            <li><strong>Big Data e IA:</strong> Análise de dados para prever tendências e ajudar no diagnóstico e tratamento.</li>
+            <li><strong>Telemedicina:</strong> Consultas online e monitoramento remoto facilitam o acesso à saúde em áreas remotas.</li>
+            <li><strong>Cloud Computing:</strong> Armazenamento seguro de dados médicos na nuvem para fácil acesso e compartilhamento entre profissionais de saúde.</li>
+        </ul>
+        <img src="img/iot-nos-hospitais.jpg" alt="Tecnologias em Saúde Conectada" class="imagem-no-paragrafo">
+    </section>
+
+    <!-- Seção: Aplicações -->
+    <section id="applications">
+        <h2>Aplicações Práticas da Saúde Conectada</h2>
+        <ul>
+            <li><strong>Monitoramento de Doenças Crônicas:</strong> Pacientes com doenças como diabetes e hipertensão podem ser monitorados remotamente, ajustando tratamentos conforme necessário.</li>
+            <li><strong>Monitoramento Cardíaco:</strong> Sensores IoT detectam irregularidades e enviam alertas, permitindo intervenções rápidas.</li>
+            <li><strong>Assistência para Idosos:</strong> Dispositivos conectados monitoram a saúde e atividade de idosos, garantindo segurança e suporte contínuos.</li>
+            <li><strong>Saúde Preventiva:</strong> Dispositivos vestíveis incentivam um estilo de vida saudável, acompanhando atividades físicas e padrões de sono.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Saúde Conectada com IoT | By Kauê Fabricio</p>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+    
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
