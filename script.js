@@ -44,3 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function redirectToPage8() {
         window.location.href = "./tec.html"
     }
+
+    function redirectToPage9() {
+        window.location.href = "./index.html"
+    }
